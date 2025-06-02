@@ -1,0 +1,22 @@
+{
+  "name": "testing-with-jest-ny",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helinzamar/testing-with-jest.git"
+  },
+  "author": "Helin Zamar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helinzamar/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/helinzamar/testing-with-jest#readme",
+  "description": "",
+  "dependencies": {
+    "underscore": "^1.13.7"
+  }
+}
