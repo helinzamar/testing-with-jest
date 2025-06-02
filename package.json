@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "chromedriver": "^137.0.0",
+    "copy-webpack-plugin": "^13.0.0",
     "jest": "^29.7.0",
     "selenium-webdriver": "^4.33.0",
     "webpack": "^5.99.9",
