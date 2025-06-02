@@ -1,5 +1,5 @@
-import _ from 'underscore';
-
-export function shuffleArray(array) {
-  return _.shuffle(array);
+function shuffleArray(array) {
+  return array.sort(() => Math.random() - 0.5);
 }
+
+module.exports = { shuffleArray };

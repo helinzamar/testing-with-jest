@@ -1,9 +1,7 @@
-import { shuffleArray } from '../src/index';
+const { shuffleArray } = require('../src/index');
 
-test('shuffleArray returns a new array with same elements', () => {
-  const original = [1, 2, 3, 4, 5];
-  const result = shuffleArray(original);
-  
-  expect(result).toHaveLength(original.length);
-  expect(result).toEqual(expect.arrayContaining(original));
+test('shuffleArray should return an array with same elements', () => {
+  const original = [1, 2, 3, 4];
+  const result = shuffleArray([...original]);
+  expect(result.sort()).toEqual(original);
 });
