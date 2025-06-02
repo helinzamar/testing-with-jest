@@ -13,7 +13,7 @@ afterAll(async () => {
   await driver.quit();
 });
 
-test('Page should load with initial text n/a', async () => {
+test( async () => {
   let el = await driver.findElement(By.id('top_of_stack')).getText();
   expect(el).toBe("n/a");
 });
