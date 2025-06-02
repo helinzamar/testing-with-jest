@@ -10,5 +10,5 @@ exports.pop = function () {
 };
 
 exports.peek = function () {
-  return stack[0]; // MEDVETET FEL – ska vara _.last(stack)
+  return _.last(stack);
 };
