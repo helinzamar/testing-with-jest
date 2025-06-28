@@ -11,21 +11,21 @@
     "url": "git+https://github.com/helinzamar/testing-with-jest.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sham Sayed Taleb Hamadeh",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/helinzamar/testing-with-jest/issues"
   },
   "homepage": "https://github.com/helinzamar/testing-with-jest#readme",
-  "devDependencies": {
-    "chromedriver": "^117.0.3",
-    "jest": "^30.0.3",
-    "selenium-webdriver": "^4.33.0"
-  },
   "directories": {
     "test": "tests"
   },
   "dependencies": {
     "underscore": "^1.13.7"
+  },
+  "devDependencies": {
+    "jest": "^30.0.3",
+    "chromedriver": "^117.0.3",
+    "selenium-webdriver": "^4.33.0"
   }
 }
