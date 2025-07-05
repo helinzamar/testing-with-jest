@@ -1,18 +1,23 @@
-# testing-with-jest
+# Testing with Jest
 
-En laboration med Jest och npm
+## Om projektet
 
-### Mitt namn är Helin – jag jobbar med Jest!
+Detta är ett övningsprojekt för att träna på:
 
-## Beskrivning
+- Versionshantering med **Git** och **GitHub**
+- Enhetstester med **Jest**
+- Webbläsartester med **Selenium**
+- **Webpack**-konfiguration och byggen
 
-I det här projektet har jag använt Git och GitHub för versionshantering, samt Jest för att testa min kod.  
-Jag har skrivit både enhetstester och ett webbläsartest med Selenium.  
-Allt fungerar som det ska – stack-funktionerna (push, pop, peek) fungerar, testerna går igenom, och projektet byggs utan problem med Webpack.
+##  Funktioner
 
-## Kom igång
+- Stack-funktioner: `push`, `pop`, `peek`
+- Alla tester går igenom (Jest + Selenium)
+- Projektet byggs korrekt med Webpack
 
-### Installera beroenden
+## 🛠️ Installation & Körning
 
 ```bash
 npm install
+npm test
+npm run build
