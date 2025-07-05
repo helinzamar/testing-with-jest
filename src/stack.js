@@ -1,18 +1,24 @@
-const _ = require('underscore');
-
 let stack = [];
 
-// Lägger ett element överst i stacken
-exports.push = function (x) {
-  stack.push(x);
-};
+function push(element) {
+  stack.push(element);
+  return stack;
+}
 
-// Returnerar det översta elementet i stacken och tar bort det
-exports.pop = function () {
+function pop() {
   return stack.pop();
-};
+}
 
-// Returnerar det översta elementet i stacken
-exports.peek = function () {
-  return _.last(stack); // FIXAT enligt instruktionen!
-};
+function peek() {
+  return stack[stack.length - 1];
+}
+
+function getStack() {
+  return stack;
+}
+
+function clear() {
+  stack = [];
+}
+
+export { push, pop, peek, getStack, clear };
